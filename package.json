@@ -1,0 +1,12 @@
+{
+  "name": "pepa",
+  "version": "1.0.0",
+  "description": "Package manager switcher for npmjs.com",
+  "main": "app.js",
+  "scripts": {
+    "build": ""
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.323"
+  }
+}

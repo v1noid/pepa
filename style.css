@@ -1,0 +1,13 @@
+.ystd-wrapper {
+  height: 100dvh;
+}
+
+.ystd-columns {
+  height: 100%;
+}
+
+.ystd-video,
+.ystd-suggestions {
+  overflow: auto;
+  height: 100%;
+}
