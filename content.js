@@ -11,7 +11,7 @@ function getCmd(preference) {
 function initialize(pre) {
   try {
     if (window.top === window) {
-      const code = document.querySelector("#top svg + p > code");
+      const code = document.querySelector("#top svg + p code");
       chrome.storage.local.get("preference", function (result) {
         code.innerText = code.innerText.replace(
           pre || "npm i",
@@ -30,7 +30,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
       chrome.storage.local.set({ preference: request.data }, function () {
         chrome.runtime.sendMessage({
           action: "update:preference",
-          data: request.data
+          data: request.data,
         });
         initialize(getCmd(prev.preference));
         sendResponse({ success: true });
@@ -41,5 +41,3 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 });
 
 initialize();
-
-

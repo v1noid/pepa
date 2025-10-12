@@ -1,6 +1,6 @@
 {
   "name": "pepa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package manager switcher for npmjs.com",
   "main": "app.js",
   "scripts": {
