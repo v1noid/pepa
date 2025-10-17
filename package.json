@@ -1,7 +1,7 @@
 {
   "name": "Pepa - package manager switcher for npmjs.com",
   "version": "1.0.2",
-  "description": "Swithc the default package manager on npmjs.com to your preferred package manager",
+  "description": "Switch the default package manager on npmjs.com to your preferred package manager",
   "main": "app.js",
   "scripts": {
     "build": ""

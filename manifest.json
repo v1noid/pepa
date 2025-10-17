@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "pepa",
-  "version": "1.0.1",
-  "description": "Package manager switcher for npmjs.com",
+  "name": "Pepa - package manager switcher for npmjs.com",
+  "version": "1.0.2",
+  "description": "Switch the default package manager on npmjs.com to your preferred package manager",
   "$schema": "https://json.schemastore.org/chrome-manifest.json",
   "permissions": ["activeTab", "storage"],
   "icons": {
